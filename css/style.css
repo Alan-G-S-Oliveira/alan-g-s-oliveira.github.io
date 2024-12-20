@@ -19,3 +19,8 @@ h1, h2, h3 {
     border-radius: 50%;
     object-fit: cover;
 }
+
+input, textarea {
+    background-color: #C2FFC7;
+    font-size: large;
+}
