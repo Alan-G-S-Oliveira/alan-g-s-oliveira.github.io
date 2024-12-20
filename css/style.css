@@ -1,0 +1,21 @@
+body {
+    background-color: #62825D;
+}
+
+hr {
+    color: #C2FFC7;
+    width: 90px;
+    border-bottom: 10px;
+    border-style: none none dotted none;
+}
+
+h1, h2, h3 {
+    color: #81BFDA;
+}
+
+.imagem-circular {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
