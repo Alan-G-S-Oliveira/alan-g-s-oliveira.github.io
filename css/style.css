@@ -1,18 +1,47 @@
+/*TAGS*/
+
 body {
+    margin: 0px;
+}
+
+header {
     background-color: #62825D;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+main {
+    background-color: #9EDF9C;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+footer {
+    background-color: #62825D;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 hr {
-    color: #C2FFC7;
+    color: #66ac6c;
     width: 90px;
     border-bottom: 10px;
     border-style: none none dotted none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 1%;
 }
 
 h1, h2, h3 {
-    color: #81BFDA;
+    color: #04628a;
 }
 
+input, textarea {
+    background-color: #c2eeff;
+    font-size: large;
+}
+
+/*CLASSES*/
 .imagem-circular {
     width: 200px;
     height: 200px;
@@ -20,7 +49,8 @@ h1, h2, h3 {
     object-fit: cover;
 }
 
-input, textarea {
-    background-color: #C2FFC7;
+/*IDs*/
+#descricao {
+    font-style: initial;
     font-size: large;
 }
