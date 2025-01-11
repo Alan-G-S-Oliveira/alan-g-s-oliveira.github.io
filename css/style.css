@@ -1,24 +1,33 @@
-/*TAGS*/
+/*---------------------------------------TAGS---------------------------------------*/
 
 body {
     margin: 0px;
+    text-align: center;
+    font-family: Arial, monospace;
+}
+
+table {
+    margin: 0 auto 0 auto;
 }
 
 header {
     background-color: #62825D;
     padding-top: 4%;
+    padding-left: 2%;
     padding-bottom: 4%;
 }
 
 main {
-    background-color: #9EDF9C;
+    background-color: white;
     padding-top: 1%;
+    padding-left: 2%;
     padding-bottom: 1%;
 }
 
 footer {
     background-color: #62825D;
     padding-top: 5%;
+    padding-left: 2%;
     padding-bottom: 5%;
 }
 
@@ -34,6 +43,7 @@ hr {
 
 h1, h2, h3 {
     color: #04628a;
+    font-family: Playwrite AU SA;
 }
 
 input, textarea {
@@ -41,16 +51,45 @@ input, textarea {
     font-size: large;
 }
 
-/*CLASSES*/
+textarea {
+    width: 90%;
+}
+
+/*---------------------------------------CLASSES---------------------------------------*/
 .imagem-circular {
-    width: 200px;
-    height: 200px;
+    width: 12.5em;
+    height: 12.5em;
     border-radius: 50%;
     object-fit: cover;
 }
 
-/*IDs*/
-#descricao {
-    font-style: initial;
-    font-size: large;
+.imagem-retangular {
+    width: 18em;
+    height: 18em;
+    object-fit: cover;
 }
+
+.playwrite-au-sa-test {
+  font-family: "Playwrite AU SA", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.cabecarios {
+    width: 50%;
+    margin: 0 auto 0 auto;
+}
+
+.listas {
+    width: 35%;
+    position: relative;
+    margin: 0 auto 0 auto;
+    text-align: left;
+}
+
+.botao:hover {
+    background-color: coral;
+}
+
+/*---------------------------------------IDs---------------------------------------*/
